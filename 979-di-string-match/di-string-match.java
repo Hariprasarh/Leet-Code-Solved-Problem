@@ -6,17 +6,14 @@ class Solution {
         int[]arr=new int[n+1];
         for(int i=0;i<n;i++)
         {
-            if(s.charAt(i)=='I')
-            {
+            if(s.charAt(i)=='I') {
                 arr[i]=right++;
             }
-            else
-            {
+            else{
                 arr[i]=left--;
             }
         }
         arr[n]=left;
         return arr;
-        
     }
 }
