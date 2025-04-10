@@ -2,7 +2,8 @@ class Solution {
     public int singleNumber(int[] arr) {
         int n=arr.length;
         int count=0;
-        for(int i=0;i<n;i++)
+        int i=0;
+        while(i<n)
         { 
             count=0;
         int j=0;
@@ -18,6 +19,7 @@ class Solution {
             {
                 return arr[i];
             }
+            i++;
         }
         return 0;
     }
