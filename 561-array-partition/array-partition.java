@@ -6,8 +6,8 @@ class Solution {
         for(int i=0;i<n;i++)
         
         {
-            sum+=nums[i];
-            i++;
+            if(i%2==0)
+              sum+=nums[i];
         }
         return sum;
     }
