@@ -3,11 +3,11 @@ class Solution {
         Arrays.sort(nums);
         int sum=0;
         int n=nums.length;
-        int i=0;
-        while(i<n)
+        for(int i=0;i<n;i++)
+        
         {
             sum+=nums[i];
-            i+=2;
+            i++;
         }
         return sum;
     }
