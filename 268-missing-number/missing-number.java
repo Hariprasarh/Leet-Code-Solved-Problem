@@ -5,7 +5,7 @@ class Solution {
         for(int i=0;i<nums.length;i++)
         {
             sum+=i+1;
-            add+=nums[i];
+            add+=nums[i]; 
         }
         return sum-add;
         
