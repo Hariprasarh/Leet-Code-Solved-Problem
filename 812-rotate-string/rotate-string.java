@@ -6,7 +6,6 @@ class Solution {
             return false;
         }
         String str=s+s;
-        String str2=s.substring(1,n);
         if(str.contains(goal))
         {
             return true;
