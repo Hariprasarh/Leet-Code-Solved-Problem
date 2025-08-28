@@ -30,13 +30,11 @@ class Solution {
         {
             m3.put(i,m3.getOrDefault(i,0)+1);
         }
-        ArrayList<String>l2=new ArrayList<>();
         int count=0;
          for(Map.Entry<String,Integer>entry:m3.entrySet())
         {
             if(entry.getValue()==2)
             {
-                l2.add(entry.getKey());
                 count++;
             }
         }
